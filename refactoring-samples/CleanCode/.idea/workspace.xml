@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dd8d202-10e4-457f-9743-afb2dee1ca66" name="Default Changelist" comment="" />
+    <list default="true" id="7dd8d202-10e4-457f-9743-afb2dee1ca66" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../KNU2_FriendListBot" beforeDir="false" afterPath="$PROJECT_DIR$/../../KNU2_FriendListBot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nts/cleancode/example/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nts/cleancode/example/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nts/cleancode/example/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nts/cleancode/example/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nts/cleancode/example/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nts/cleancode/example/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nts/cleancode/example/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nts/cleancode/example/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/nts/cleancode/example/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/nts/cleancode/example/EmployeeTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +123,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539927234700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539928761724" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunDashboard">

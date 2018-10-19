@@ -4,16 +4,12 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.nts.cleancode.example.Job;
-import com.nts.cleancode.example.Manager;
-import com.nts.cleancode.example.Programmer;
-
 public class EmployeeTest {
 
 	@Test
 	public void noJobsPerformed() {
 		Manager deadBeat = new Manager();
-		assertEquals(0, deadBeat.jobsCompletedCount());
+		assertEquals(0, deadBeat.jobsDoneCount());
 		assertEquals(0, deadBeat.jobsSkippedCount());
 	}
 	
@@ -23,7 +19,7 @@ public class EmployeeTest {
 		productiveManager.performJob(Job.MANAGE);
 		productiveManager.performJob(Job.MARKET);
 		productiveManager.performJob(Job.SELL);
-		assertEquals(3, productiveManager.jobsCompletedCount());
+		assertEquals(3, productiveManager.jobsDoneCount());
 		assertEquals(0, productiveManager.jobsSkippedCount());
 	}
 	
@@ -32,7 +28,7 @@ public class EmployeeTest {
 		Manager unbusyManager = new Manager();
 		unbusyManager.performJob(Job.TEST);
 		unbusyManager.performJob(Job.SELL);
-		assertEquals(1, unbusyManager.jobsCompletedCount());
+		assertEquals(1, unbusyManager.jobsDoneCount());
 		assertEquals(1, unbusyManager.jobsSkippedCount());
 	}
 	
